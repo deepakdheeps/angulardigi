@@ -1,0 +1,64 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport="false"
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+   <mat-toolbar style="color: #fff; background-color: #5BAEF3; "> 
+    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;MENU</mat-toolbar>
+    <mat-nav-list>
+    <ul style="list-style: none;  padding-left: 0; margin-top: 0; padding-top: 0;">
+      <mat-icon>face</mat-icon><li  class="digi-li">AUTHOR </li>
+      <mat-icon>assignment</mat-icon><li class="digi-li">ASSIGNMENT </li>
+      <mat-icon>dashboard_customize</mat-icon><li class="digi-li">DASHBOARD</li>
+  </ul>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async"
+        style="color: #fff; background-color: transparent;">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+     
+  
+
+ 
+    
+    <mat-icon class="check_box"  style="color: #fff">menu</mat-icon>
+    
+     <span></span>  
+    <mat-icon class="check_box1" style="color: #fff">domain_verification</mat-icon> 
+  <span style="font-size: large; margin-right: 30px;"> DigiAssess</span>
+  <a style="font-size: 15px;">AUTHOR </a><mat-icon class="check_box" >keyboard_arrow_right</mat-icon>
+  <a style="font-size: 15px;">ASSIGNMENT </a><mat-icon class="check_box">keyboard_arrow_right</mat-icon>
+  <a style="color:#49ff85; font-size: 15px;">DASHBOARD</a>
+  <span class="example-spacer"></span>
+    
+ <div class="column">
+  <ul class="left">
+    
+     <li class="smalle">YOU ARE</li>
+     <a class="biggy" >Assessment Author</a>
+     </ul>
+    
+ </div>
+ <a style="margin-left: 5px;margin-top: 0px; padding: 0;"><mat-icon>expand_more</mat-icon></a>
+  <span></span>
+  <span></span>
+  
+  <span class="digi-span">
+ <mat-icon style="color:#49ff85;margin-top: 10px;">circle</mat-icon></span>
+  <span class="digi-span">
+  <mat-icon style="margin-top: 10px;">notifications</mat-icon></span>
+ 
+
+
+    </mat-toolbar>
+    <!-- Add Content Here --><ng-content></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>

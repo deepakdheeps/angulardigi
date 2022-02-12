@@ -1,0 +1,140 @@
+.sidenav-container {
+  height: 100%;
+  
+  background-color:whitesmoke;
+}
+
+mat-toolbar{
+  text-align: center;
+  height: 50px;
+  
+ 
+  background-color:#5BAEF3;
+  }
+
+.sidenav {
+  width: 160px;
+  background-color:rgb(183, 187, 190);
+
+  text-align: center;
+}
+
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+@media (min-width: 768px){
+  .sidenav  {
+  display: none;
+  }
+}
+@media(max-width: 950px){
+.check_box , a ,li.smalle,div.column{
+  display: none;
+}
+.digi-span{
+  float: left;
+  align-items: left;
+ 
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
+}
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+p{
+  height: 40px;
+  width: cover;
+  
+  font-stretch:extra-expanded;
+   
+  text-align: space between;
+}
+span{
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top:10px ;
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 100px;
+  align-items: center;
+  text-align: center;
+  
+  font-size:17px;  
+}
+a{
+  margin-left: 10px;
+  font-size: 15px;
+  
+  margin-bottom: 10px;
+  color: #fff;
+ margin-top: 10px;
+}
+.check_box1, .check_box{
+margin-left: 5px;
+}
+a:hover{
+  color: #48e79b;
+}
+
+img{
+  height: 60px;
+  width: 60px;
+  display: block;
+  float: right;
+}
+ul.right{
+  float: right;
+  font-size: 5px;
+  margin: 0px;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: rgb(32, 32, 0);
+}
+ul.left{
+  list-style: none;
+  margin-bottom: 25px;
+  line-height: 2px;
+  margin-top: 25px;
+}
+li.smalle{
+  color: #fff;
+  margin-top: 5px;
+  padding-top: 0;
+ text-align: right;
+  font-size: 13px;  
+  margin-bottom:18px;
+} 
+a.biggy{
+  color: #fff;
+  font-size: 17px;
+   margin-top: 5px;
+  padding-bottom: 700px;
+}
+
+  
+mat-icon.mat-icon.notranslate.timer.material-icons.mat-icon-no-color{
+  font-size: 15px;
+  }
+  mat-icon.mat-icon.notranslate.joy.material-icons.mat-icon-no-color{
+  font-size: 18px;
+  border-radius: 20px;  
+  }
+  .digi-li{
+    margin: 20px 0px;
+   border-bottom: 2px solid black;
+    color: black;
+    box-sizing: border-box;
+    height: 40px;
+    width: 160px;
+    font-weight: bold;
+    box-shadow: 5px 10px 8px #888888;
+  }

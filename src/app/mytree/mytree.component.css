@@ -1,0 +1,25 @@
+.type-icon {
+  color: #757575;
+  margin-right: 5px;
+}
+.mat-divider{
+  height: 45px;
+   margin-left:30px;
+    max-width:770px;
+    min-width: 200px;
+    display: block;
+}
+@media(max-width:823px){
+  .mat-divider{
+  display: none;
+  }
+
+
+} 
+@media(max-width:370px){
+
+  .mat-tree{
+    padding-left: 50px;
+  }
+
+}

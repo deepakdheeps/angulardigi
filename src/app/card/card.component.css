@@ -1,0 +1,133 @@
+button{
+ color:#fff;
+ background-color: silver;
+ border-radius: 5px;
+ border:none;
+ height: 30px;
+ width:55px;
+}
+.digi-card{
+    width: 800px;
+  
+  margin: auto;
+    margin-bottom: 10px;
+    box-shadow: none;
+
+}
+
+
+
+@media (max-width:781px){
+    .digi-card{
+     align-items: left;
+      
+    }
+    ul{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width:737px){
+    .digi-card{
+      
+        text-align: right;
+     
+        width: auto;
+    
+    }
+
+    .digi-adjust{
+      display:flex;
+      margin-top: 30px;
+    
+      left: 0;
+      margin-left: 30px;
+    
+    }
+    .digi-3{
+        display: none;
+    }
+    span.digi-2{
+     
+      margin:0px;
+        
+    }
+    .digi-1{
+       margin-left: 45px;
+    }
+}
+
+
+@media (max-width:578px){
+.digi-card{
+    margin-left: 0px;
+    width: 530px;
+}
+}
+
+@media (max-width:540px){
+    .digi-card{
+        margin-left: 10px;
+        width: 500px;
+    }
+ }
+
+ 
+@media (max-width:414px){
+    .digi-card{
+    width: 390px;
+    }
+
+}
+
+@media (max-width:481px){
+    .digi-card{
+    width: 410px;
+    }
+
+}
+ 
+/*motog4*/
+
+@media (max-width:360px){
+    .digi-card{
+    width: 300px;
+    }
+
+}
+
+/*galaxt fold */
+
+@media (max-width:286px){
+    .digi-card{
+    width: 100px;
+    }
+
+}
+
+/*iphone se */
+
+@media (max-width:375px){
+    .digi-card{
+    width: 330px;
+    }
+
+}
+
+
+/*iphone 12 pro*/
+
+@media (max-width:390px){
+    .digi-card{
+    width: 330px;
+    }
+
+}
+
+@media (max-width:393px){
+    .digi-card{
+    width: 330px;
+    }
+
+}

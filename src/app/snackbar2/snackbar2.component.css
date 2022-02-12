@@ -1,0 +1,41 @@
+mat-card{
+
+    width: 800px;
+    min-width: 400px;
+    box-shadow: none;
+    border: none;
+    border-radius: none;
+    
+    }
+    .digi-div{
+       display: flex;
+      
+       align-items: center;
+        justify-content: center;
+       
+    }
+    
+     .mat-card:not([class*=mat-elevation-z]) {
+            box-shadow: none;
+     }
+    
+     @media (max-width:637px){
+    
+            .digi-select{
+                position: absolute;
+            }
+            
+            .digi-select1{
+             
+                 position:relative;
+               margin-top: 60px;
+               padding-left: 42px;
+               display: inline-block;
+            }
+            .mat-card-title{
+                size: 0px;
+                position: relative;
+                width: 10px;
+               margin-left:25px;
+            }
+     }
